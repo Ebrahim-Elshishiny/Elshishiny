@@ -4,65 +4,9 @@
     
     <title>Sigin</title>
     <link rel="stylesheet" href="signin.css">
-    <!-- <style></style> -->
-        <!-- /* body{
-           
-            background: linear-gradient(135deg, #2c3e50, #34495e);  
-        }
-        form{
-            background-color: #1d2327;
-            align-items: center;
-            color: white;
-            justify-content: space-between;
-            padding: 10px;
-            width: 300px;
-            height: 200px;
-            position: absolute;
-            top:50%;
-            left:50%;
-            transform: translate(-50%,-50%);
-            
-            
-        }
-        input{
-            position: absolute;
-            left: 100px;
-            
-        }
-         button{
-            background-color: rgb(10, 97, 140);
-            position: absolute;
-            right: 140px;
-            bottom: 30px;
-            border-radius:15px ;
-            width: 60px;
-            color: aliceblue;
-            outline: none;
-             
-        }
-        button :hover{
-            background-color: rgb(228, 104, 16);
-
-        }
-        .A{
-            text-decoration: none;
-            color: brown;
-        }
-        
-    </style> */ -->
-</head>
-<body>
-    <!-- <div > -->
-     <!-- <form method="post"  >
-            <table  >
-            <tr><td> Name:  </td> <td><input placeholder="you can use email..."  id="username" required> <br><br> </td> </tr>
-            <tr><td> Password:</td> <td><input  type="password" name="y" required> <br><br></td> </tr>
-            <tr><td> <a class="A" href="#">foget my Password and name</a><br><br> </td></tr>
-                <tr><td><button onclick="login()" type="button">login</button></td></tr>
-                
-            </table> 
-
-        </form>  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <body>
         <div class="login">
             <form method="post">
                 <h1>log in </h1>
@@ -73,6 +17,7 @@
                 <button class="submit" onclick="login()" type="button">log in</button>      
             </form>
     </div>
+ 
     <script>
         function login() {
   let username = document.getElementById("username").value;
