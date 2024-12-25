@@ -3,6 +3,9 @@ body {
     background: url(https://images.alphacoders.com/112/112121.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100uv;
 }
 .login {
     border:1px solid black;
