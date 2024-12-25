@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Watch it</title>
+        <link rel="stylesheet" href="Home.css"/>
+    </head>
+    <body>
+        <div class="Upper">
+            <img src="https://3omaaarr.github.io/webbb/images22/Watchit_Logo.png" Width="150" height="50" />
+            <div class="c">
+                
+                    <p>Today's Date: <p id="currentDate"></p></p>
+                
+                <div class="o">
+                    <input placeholder="Start typing..." />
+                    <button class="btn1">SEARCH</button>
+                </div>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button id="usernameLink" > Sign in  </button>
+            </div>
+            </div>
+            <div class="Mako">
+                <div>
+            <span>Welcome to Watch it</span>
+            <h1 class="Trends">Trending Movies</h1>
+            <h2 class="filmname">MAKO</h2>
+            <p class="p">The events of the film,<br>
+                inspired by a true story,<br>
+                revolve around the ferry (Salem Express),<br>
+                about eight people going on a trip with the aim of diving in the depths of the Red Sea<br> in a world full of memories.</p>
+                <a class="Show" href="mako.html">Show More</a><br></br>
+                <button class="watchdownload">Watch</button> <br></br>
+                <button class="watchdownload">Download</button>
+                </div>
+                <div>
+                    <img class="img_mako" src="https://3omaaarr.github.io/webbb/images22/WhatsApp%20Image%202024-12-12%20at%2000.50.41_a7f95065.jpg" height="300" width="225" >
+                </div>
+            </div>
+            <div class="Mako">
+                <div>
+                    <span><h2 class="filmname">Sons of Rizk 3</h2></span>
+                    
+                    
+                    <p class="p">In this part,<br> after years have passed and the brothers have separated in their different ways of life.<br> But one day,<br> a ghost from the past returns to cast a shadow over the sons of Rizk,<br> forcing them to return to a life of crime and theft once again in order to save themselves,<br> in a fateful operation that is the largest, most dangerous, and most important in the history of the sons of Rizk.<br>
+                        </p>
+                        <a class="Show" href="sonsofrezk.html">Show More</a> <br></br>
+                        <button class="watchdownload">Watch</button> <br></br>
+                <button class="watchdownload">Download</button>
+                        </div>
+                        <div>
+                            <img class="img_mako" src="https://3omaaarr.github.io/webbb/images22/images%20(12).jpeg.jpg" height="300" width="225">
+                        </div>
+            </div>
+            <div class="Mako">
+                <div>
+                    <span><h2 class="filmname">El Hareefa</h2></span>
+                    
+                    <p class="p">Circumstances force Majed to leave his comfortable life and move from his private school to a public school.<br> Over time, he gains the respect of his colleagues because of his great football skill.<br> He joins the school team in a competition in the hope of winning a grand prize.</p>
+                        <a class="Show" href="el 7arefa.html">Show More</a> <br></br>
+                        <button class="watchdownload">Watch</button> <br></br>  
+                <button class="watchdownload">Download</button>
+                        </div>
+                        <div>
+                            <img class="img_mako" src="https://3omaaarr.github.io/webbb/images22/WhatsApp%20Image%202024-12-12%20at%2000.50.32_4bb35100.jpg" height="300" width="225">
+                        </div>
+            </div>
+                        <div class="Mako">
+                            <button class="Next">Next</button>
+                        </div>
+                        <script language="javascript">
+                            document.addEventListener("DOMContentLoaded", function() {
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString('EG', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            document.getElementById('currentDate').textContent = formattedDate;
+            });
+                        </script>
+                        <script>
+                            let username = sessionStorage.getItem("username");
+                        
+                            if (username) {
+                                document.getElementById("usernameLink").textContent = username;
+                            }
+                        </script>
+    </body>
+</html>

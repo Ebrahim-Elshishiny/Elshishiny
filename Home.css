@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.Upper{
+    background-color: #1abc9c;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 35px;
+    height: 60;
+
+}
+.Upper a{
+    color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 15px;
+}
+.Upper a:hover{
+    background-color: #17a689;
+}
+.Upper button{
+    background-color:#2980b9;
+            border-radius: 15px;
+            padding: 5px 15px;
+            color: #ffffff;
+            border: none;
+            size: 150px;
+justify-content: space-between;}
+.Upper button:hover{
+    background-color: #5050ff;
+}
+.Trends{
+    color: red;
+}
+.wlcome{
+    color: yellow;
+}
+.Mako{
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
+    
+}
+.img_mako{
+    padding-top: 100px;
+    border: none;
+    border-radius: 20px;
+    
+}
+.Show{
+    color: rgb(127, 146, 22);
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 15px;
+     
+}
+.Show:hover{
+    color:#5e6b15;
+    
+
+}
+.Next{
+    background-color:#2980b9;
+            border-radius: 15px;
+            padding: 5px 15px;
+            color: #ffffff;
+            border: none;
+            size: 150px; 
+}
+.Next:hover{
+    background-color: #5050ff;
+}
+.watchdownload{
+    background-color:#2980b9;
+            border-radius: 15px;
+            padding: 5px 15px;
+            color: #ffffff;
+            border: none;
+            size: 150px;
+}
+.watchdownload:hover{
+    background-color: #5050ff; 
+}
+.box {
+    width: 500px;
+    height: 150px;
+    background-color: mediumspringgreen;
+    border: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.p{
+    margin-top: 20px;
+            max-width: 600px;
+            text-align: justify;
+            color: #FFFFFF;
+                max-width: 600px;
+             
+           
+}
+.filmname{
+    color:#ffffff;
+}
+.n{
+    background-color:#2980b9;
+            border-radius: 15px;
+            padding: 5px 15px;
+            color: #ffffff;
+            border: none;
+            size: 150px;
+}
+.n:hover{
+    background-color: #5050ff; 
+}
+input {
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    left:550px;
+    bottom: 685px;
+
+ }
+
+   .btn1 {
+     position: absolute;
+     left:700px;
+     bottom: 685px;
+     height: 31px;
+     background-color:#2980b9;
+     border-radius: 15px;
+     padding: 15px 15px;
+     color: #ffffff;
+     border: none;
+     outline: none;
+ }
+
+ .btn1:hover{
+    background-color:#5050ff
+   }
+   .c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+  
+    
+
+
+   span
+{
+    color: hsl(64, 100%, 50%);
+    font-size: 25px;
+}

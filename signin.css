@@ -1,0 +1,66 @@
+body {
+    
+    background: url(https://images.alphacoders.com/112/112121.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.login {
+    border:1px solid black;
+    height:500px;
+    width:400px;
+    overflow: hidden;
+    margin-top: 40px;;
+    margin-right: auto;
+    margin-left:auto;
+    border-radius:20px;
+    color: rgb(238, 195, 195);
+
+}
+form {
+    padding:40px;
+    height:100%;
+    width:100%;
+    gap:5px;
+    box-sizing: border-box;
+    flex-direction: column;
+    display:flex;
+    backdrop-filter:brightness(60%)
+}
+h1 {
+    font-weight:normal;
+    margin-bottom:50px;
+    /* padding-bottom:50px; */
+    text-shadow:0px 0px 0px 2px rgba(0,0,0,0.5);
+    font-size:28px;
+}
+label {
+    color:white;
+    letter-spacing:2px;
+    padding-left:10px;
+    font-size:10px;
+    text-transform: uppercase;
+}
+input {
+    background-color: rgba(255,255,255,0.3);
+    border:none;
+    height:40px;
+    line-height:40px;
+    border-radius:20px;
+    color:rgb(255, 255, 255);
+    padding:0 20px;
+    margin-bottom:20px;
+    border:none;
+}
+.submit {
+    color: white;
+    background: rgb(63, 105, 221);
+    height:40px;
+    width:100px;
+    border-radius:40px;
+    border:none;
+    margin-left:auto;
+    margin-right:auto
+}    
+::placeholder {
+    color:bisque;
+}
